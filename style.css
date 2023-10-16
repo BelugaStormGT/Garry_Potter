@@ -16,7 +16,6 @@ h2 {
     padding: 5px 15px;
     border-radius: 10px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-    color: cornflowerblue;
 }
 
 header {
@@ -120,7 +119,21 @@ div:nth-child(odd) {
 
 .button {
     margin-top: 40px;
-    display: block;
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    width: max-content;
+    border: 2px solid darkblue;
+    padding: 10px 30px;
+    border-radius: 25px;
+    transition: all 250ms linear;
+}
+
+.button:hover,
+.button:focus {
+    background-color: lightyellow;
+    border: 2px solid blue;
+    color: blueviolet;
 }
 
 .fandom-link {
@@ -130,4 +143,8 @@ div:nth-child(odd) {
     border-left: 20px solid darkcyan;
     border-right: 20px solid darkcyan;
     padding: 0 5px;
+}
+
+.main-img {
+    border-radius: 10%;
 }
