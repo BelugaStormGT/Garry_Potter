@@ -1,0 +1,133 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgreen;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 0;
+    background-color: lightgreen;
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    color: cornflowerblue;
+}
+
+header {
+    background-color: white;
+    border: 5px solid darkblue;
+    color: darkblue;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header a {
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid darkblue;
+    transition: all 250ms linear;
+    margin-right: 40px;
+}
+
+header q {
+    margin: 0 40px;
+    font-style: italic;
+}
+
+nav {
+    padding: 15px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+nav a {
+    border: 2px solid darkblue;
+    color: white;
+    border-radius: 10px;
+    background-color: darkblue;
+    padding: 5px;
+    transition: all 250ms linear;
+}
+
+nav a:not(:last-of-type) {
+    margin-right: 30px;
+}
+
+nav a:hover,
+nav a:focus,
+header a:hover,
+header a:focus {
+    background-color: white;
+    color: blue;
+}
+
+h1 {
+    background-color: lightblue;
+    color: darkblue;
+    width: max-content;
+    margin: 20px auto;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: white;
+    border: 5px solid darkblue;
+    color: darkblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+footer p {
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+div {
+    position: relative;
+    border-top: 4px solid darkblue;
+    margin-top: 40px;
+    padding: 30px;
+    background-color: lightblue;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px green;
+    width: 90%;
+}
+
+div:nth-child(odd) {
+    margin-left: auto;
+}
+
+.rune {
+    position: absolute;
+    bottom: 50%;
+    right: 10%;
+    opacity: 0.5;
+}
+
+.button {
+    margin-top: 40px;
+    display: block;
+}
+
+.fandom-link {
+    color: darkcyan;
+    font-style: italic;
+    font-weight: bold;
+    border-left: 20px solid darkcyan;
+    border-right: 20px solid darkcyan;
+    padding: 0 5px;
+}
